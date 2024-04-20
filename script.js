@@ -94,19 +94,19 @@ function sendEmail() {
         Password : "5F591BFA2C35800F47B8ED3F94466A92E474",
         To : 'champneevarp@gmail.com',
         From : "champneevarp@gmail.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
+        Subject : "New Contact From Portfolio",
+        Body : "Name:"+ document.getElementById("name").value 
+        + "<br> Email: "+ document.getElementById("email").value 
+        + "<br> Mobile Number:"+ document.getElementById("phone").value 
+        + "<br> EmailSubject:"+ document.getElementById("subject").value 
+        + "<br> Message:"+ document.getElementById("msg").value 
     }).then(
       message => {
-        if(message == "OK"){
-            Swal.fire({
-                position: "top-end",
-                icon: "success",
-                title: "Your message has been sent",
-                showConfirmButton: false,
-                timer: 1500
-              });
-        }
+        Swal.fire({
+            title: "Done!",
+            text: "Message Sent Successfully",
+            icon: "success"
+          });
       }
     );
 }
