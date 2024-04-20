@@ -42,7 +42,7 @@ window.onscroll = () => {
 };
 
 var typed = new Typed(".multiple-text",{
-    strings:["Web Designer","Frontend Developer","Data Analyst"],
+    strings:["Web Designer","Frontend Developer","Freelancer","Blogger"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
