@@ -86,8 +86,8 @@ section {
 
 .home-img img {
     width: 35vw;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
     
@@ -174,8 +174,8 @@ span {
 
 .about-img img {
     width: 35vw;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 30px;
+    margin-left: 20px;
     border-radius: 50%;
     box-shadow: 1px 1px 20px var(--main-color);
 }
