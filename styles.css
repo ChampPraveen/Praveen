@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color:#1f242d;
-    --second-bg-colcr:#323946;
+    --bg-color:#000;
+    --second-bg-colcr:#272829;
     --text-color:#fff;
-    --main-color:#0ef;
+    --main-color:rgb(10, 243, 30);
 }
 
 html {
@@ -86,8 +86,11 @@ section {
 
 .home-img img {
     width: 35vw;
+    margin-left: 50px;
     animation: floatImage 4s ease-in-out infinite;
-    filter: drop-shadow(2px 2px 20px  #0ef);
+    border-radius: 50%;
+    
+    filter: drop-shadow(2px 2px 20px var(--main-color));
 }
 @keyframes floatImage {
     0%{
@@ -170,8 +173,9 @@ span {
 
 .about-img img {
     width: 35vw;
+    margin-right: 50px;
     border-radius: 50%;
-    box-shadow: 1px 1px 20px #0ef;
+    box-shadow: 1px 1px 20px var(--main-color);
 }
 
 .heading {
